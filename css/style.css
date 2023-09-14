@@ -34,3 +34,24 @@ nav {
     font-size: 18px;
     font-weight: bold;
 }
+
+.banner {
+    background-color: teal;
+    color: #fff;
+    height: 400px;
+    display: flex;
+
+    /* กำหนดแนวนอน */
+    justify-content: center;
+    /* กำหนดแนวตั้ง */
+    align-items: center;
+}
+
+.banner-info img {
+    width: 300px;
+    border-radius: 100%;
+}
+
+.banner-info {
+    text-align: center;
+}
