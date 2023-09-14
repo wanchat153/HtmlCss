@@ -14,8 +14,32 @@ nav {
     padding: 10px;
 }
 
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+main div {
+    padding: 20px;
+}
+
+main div p {
+    /* ระยะห่างจากด้านบน */
+    margin-top: 10px;
+}
+
+main img {
+    width: 100%;
+
+    /* ความโค้ง */
+    border-radius: 20px;
+}
+
 .menu {
+    /* เรียงเป็นแนวนอน */
     display: flex;
+    
+    /* ลบจุด */
     list-style: none;
 }
 
@@ -53,5 +77,6 @@ nav {
 }
 
 .banner-info {
+    /* กำหนด text ตรงกลาง */
     text-align: center;
 }
